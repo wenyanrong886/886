@@ -22,6 +22,9 @@ func main() {
 	fmt.Println("all done!")
 	// 测试git
 
+	//测试3
+	fmt.Println("嘿嘿1")
+	// 测试2
 }
 
 func doIt(workerID int, done <-chan struct{}, wg *sync.WaitGroup) {
