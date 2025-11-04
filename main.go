@@ -21,6 +21,7 @@ func main() {
 	wg.Wait()
 	fmt.Println("all done!")
 	// 测试git
+
 }
 
 func doIt(workerID int, done <-chan struct{}, wg *sync.WaitGroup) {
